@@ -1,0 +1,33 @@
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: Start test algebra_tests:1:string_of_exp_test2.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Test algebra_tests:1:string_of_exp_test2 exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Failure("not implemented yet") in test algebra_tests:1:string_of_exp_test2.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from SumsTests.string_of_exp_test2 in file "7-sums/test/SumsTests.ml", line 30, characters 15-70
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: End test algebra_tests:1:string_of_exp_test2.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: Start test algebra_tests:4:flatten_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Test algebra_tests:4:flatten_test1 exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Failure("not implemented yet") in test algebra_tests:4:flatten_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from SumsTests.flatten_test1 in file "7-sums/test/SumsTests.ml", line 39, characters 15-79
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: End test algebra_tests:4:flatten_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: Start test algebra_tests:6:compare_assoc.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: law compare_assoc: 0 relevant cases (1 total)
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Test algebra_tests:6:compare_assoc exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Failure("not implemented yet") in test algebra_tests:6:compare_assoc.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from SumsTests.show_exps3 in file "7-sums/test/SumsTests.ml", line 85, characters 65-80
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from QCheck2.Test.print_instance in file "src/core/QCheck2.ml" (inlined), line 1613, characters 17-21
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from QCheck2.Test.print_c_ex in file "src/core/QCheck2.ml", line 1621, characters 33-66
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from QCheck2.Test.print_error in file "src/core/QCheck2.ml", line 1757, characters 26-44
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from QCheck_base_runner.Raw.callback in file "src/runner/QCheck_base_runner.ml", line 145, characters 12-66
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from QCheck2.Test.check_cell in file "src/core/QCheck2.ml", line 1605, characters 4-27
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from QCheck2.Test.check_cell_exn in file "src/core/QCheck2.ml", line 1770, characters 14-53
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#02 I: End test algebra_tests:6:compare_assoc.

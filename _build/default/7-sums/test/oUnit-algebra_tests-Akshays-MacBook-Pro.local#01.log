@@ -1,0 +1,49 @@
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: Start test algebra_tests:0:string_of_exp_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Test algebra_tests:0:string_of_exp_test1 exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test algebra_tests:0:string_of_exp_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from SumsTests.string_of_exp_test1 in file "7-sums/test/SumsTests.ml", line 27, characters 15-67
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: End test algebra_tests:0:string_of_exp_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: Start test algebra_tests:2:eval_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Test algebra_tests:2:eval_test1 exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test algebra_tests:2:eval_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from SumsTests.eval_test1 in file "7-sums/test/SumsTests.ml", line 33, characters 15-82
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: End test algebra_tests:2:eval_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: Start test algebra_tests:3:eval_test2.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Test algebra_tests:3:eval_test2 exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test algebra_tests:3:eval_test2.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from SumsTests.eval_test2 in file "7-sums/test/SumsTests.ml", line 36, characters 15-68
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: End test algebra_tests:3:eval_test2.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: Start test algebra_tests:5:flatten_sorted_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Test algebra_tests:5:flatten_sorted_test1 exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test algebra_tests:5:flatten_sorted_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from SumsTests.flatten_sorted_test1 in file "7-sums/test/SumsTests.ml", line 42, characters 15-86
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: End test algebra_tests:5:flatten_sorted_test1.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: Start test algebra_tests:7:compare_sorted_comm.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: law compare_sorted_comm: 0 relevant cases (1 total)
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Test algebra_tests:7:compare_sorted_comm exited with an error.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test algebra_tests:7:compare_sorted_comm.
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from SumsTests.show_exps2 in file "7-sums/test/SumsTests.ml", line 81, characters 38-53
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.print_instance in file "src/core/QCheck2.ml" (inlined), line 1613, characters 17-21
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.print_c_ex in file "src/core/QCheck2.ml", line 1621, characters 33-66
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.print_error in file "src/core/QCheck2.ml", line 1757, characters 26-44
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck_base_runner.Raw.callback in file "src/runner/QCheck_base_runner.ml", line 145, characters 12-66
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.check_cell in file "src/core/QCheck2.ml", line 1605, characters 4-27
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.check_cell_exn in file "src/core/QCheck2.ml", line 1770, characters 14-53
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-27T08:56:44+00:00 Akshays-MacBook-Pro.local#01 I: End test algebra_tests:7:compare_sorted_comm.

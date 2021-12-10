@@ -1,0 +1,15 @@
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:0:add_test1.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:0:add_test1 is successful.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:0:add_test1.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:2:printString2_test.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:2:printString2_test is successful.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:2:printString2_test.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:4:apply_test.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:4:apply_test is successful.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:4:apply_test.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:6:isEmpty_test.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:6:isEmpty_test is successful.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:6:isEmpty_test.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Start test sequence_arithmetic_tests:8:printString_test.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: Test sequence_arithmetic_tests:8:printString_test is successful.
+2021-11-27T08:56:41+00:00 Akshays-MacBook-Pro.local#01 I: End test sequence_arithmetic_tests:8:printString_test.

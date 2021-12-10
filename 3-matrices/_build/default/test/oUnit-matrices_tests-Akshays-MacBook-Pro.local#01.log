@@ -1,0 +1,228 @@
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:0:is_matrix_empty1.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:0:is_matrix_empty1 exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:0:is_matrix_empty1.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.is_matrix_empty_test1 in file "test/MatricesTests.ml", line 30, characters 45-69
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:0:is_matrix_empty1.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:2:is_matrix_one_row.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:2:is_matrix_one_row exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:2:is_matrix_one_row.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.is_matrix_one_row in file "test/MatricesTests.ml", line 45, characters 47-73
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:2:is_matrix_one_row.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:4:is_matrix_three_rows.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:4:is_matrix_three_rows exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:4:is_matrix_three_rows.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.is_matrix_three_rows in file "test/MatricesTests.ml", line 59, characters 47-76
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:4:is_matrix_three_rows.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:6:is_matrix_four_rows_four_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:6:is_matrix_four_rows_four_columns exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:6:is_matrix_four_rows_four_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.is_matrix_four_rows_four_columns in file "test/MatricesTests.ml", line 71, characters 47-88
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:6:is_matrix_four_rows_four_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:8:is_matrix_no2.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:8:is_matrix_no2 exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:8:is_matrix_no2.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.is_matrix_no2 in file "test/MatricesTests.ml", line 83, characters 51-76
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:8:is_matrix_no2.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:9:is_matrix_no3.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:9:is_matrix_no3 exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:9:is_matrix_no3.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.is_matrix_no3 in file "test/MatricesTests.ml", line 91, characters 51-76
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:9:is_matrix_no3.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:11:matrix_shape_two_rows_three_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Test matrices_tests:11:matrix_shape_two_rows_three_columns is successful.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:11:matrix_shape_two_rows_three_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:13:matrix_shape_one_row_zero_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Test matrices_tests:13:matrix_shape_one_row_zero_columns is successful.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:13:matrix_shape_one_row_zero_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:15:matrix_add_empties.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Test matrices_tests:15:matrix_add_empties is successful.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:15:matrix_add_empties.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:17:matrix_add_4x1.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Test matrices_tests:17:matrix_add_4x1 is successful.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:17:matrix_add_4x1.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:19:matrix_mult_empty.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:19:matrix_mult_empty exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:19:matrix_mult_empty.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.matrix_mult_empty in file "test/MatricesTests.ml", line 154, characters 4-43
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:19:matrix_mult_empty.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:20:matrix_mult_zero_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:20:matrix_mult_zero_columns exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:20:matrix_mult_zero_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.matrix_mult_zero_columns in file "test/MatricesTests.ml", line 161, characters 4-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:20:matrix_mult_zero_columns.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:22:matrix_mult_3x2.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:22:matrix_mult_3x2 exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Failure("not implemented yet") in test matrices_tests:22:matrix_mult_3x2.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.matrix_mult_3x2 in file "test/MatricesTests.ml", line 177, characters 4-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:22:matrix_mult_3x2.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:24:commutative_addition.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: law commutative_addition: 10000 relevant cases (10000 total)
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Test matrices_tests:24:commutative_addition is successful.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:24:commutative_addition.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:26:associative_multiplication.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: law associative_multiplication: 0 relevant cases (1 total)
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: test `associative_multiplication`
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: raised exception `Failure("not implemented yet")`
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: on `1 74 2 544 36 1 8 79 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 1 20 9 3 6 156 7 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 9 1 14 814 583 120 442 0 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 700 3 3 6 1284 6 254 6 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 574 7 2 5 817 93 114 7125 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 2 3 1458 13 91 4 39 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 449 60 7 224 3 41 2 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 339 0 465 7 1 532 111 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 3 0 6 2405 5 9 8 14 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 6 31 2 7 1 65 968 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 0 31 8359 7553 4 9 2723 7 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 739 6 0 494 3 8332 3242 9 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 50 0 5 610 3 4 709 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 7 18 52 7 949 9 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 43 7 3 8 1 7 8 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 65 0 19 2 1 2 5106 80 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 3 19 193 107 8 0 7 4 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 3 1 7 7 7 3 71 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 19 4 3779 60 2 6 5 882 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 0 58 281 82 22 652 8 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 2 51 221 364 7 3 823 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 4 3 8 150 97 21 3 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 9 5 61 92 7 2 11 6 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 28 837 4 6 69 3 30 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: `
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.associative_multiplication.(fun) in file "test/MatricesTests.ml", line 280, characters 72-91
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:26:associative_multiplication exited with an error.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: test `associative_multiplication`
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: raised exception `Failure("not implemented yet")`
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: on `1 74 2 544 36 1 8 79 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 1 20 9 3 6 156 7 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 9 1 14 814 583 120 442 0 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 700 3 3 6 1284 6 254 6 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 574 7 2 5 817 93 114 7125 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 2 3 1458 13 91 4 39 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 449 60 7 224 3 41 2 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 339 0 465 7 1 532 111 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 3 0 6 2405 5 9 8 14 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 6 31 2 7 1 65 968 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 0 31 8359 7553 4 9 2723 7 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 739 6 0 494 3 8332 3242 9 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 50 0 5 610 3 4 709 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 7 18 52 7 949 9 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 43 7 3 8 1 7 8 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 65 0 19 2 1 2 5106 80 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 3 19 193 107 8 0 7 4 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 3 1 7 7 7 3 71 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 19 4 3779 60 2 6 5 882 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 0 58 281 82 22 652 8 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 2 51 221 364 7 3 823 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 4 3 8 150 97 21 3 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 9 5 61 92 7 2 11 6 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 28 837 4 6 69 3 30 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: `
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from MatricesTests.associative_multiplication.(fun) in file "test/MatricesTests.ml", line 280, characters 72-91
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E:  in test matrices_tests:26:associative_multiplication.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:26:associative_multiplication.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:27:distributive_multiplication.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: law distributive_multiplication: 1 relevant cases (1 total)
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Test matrices_tests:27:distributive_multiplication has failed.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: test `distributive_multiplication` failed on ≥ 1 cases:
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 1 74 2 544 36 1 8 79 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 1 20 9 3 6 156 7 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 9 1 14 814 583 120 442 0 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 700 3 3 6 1284 6 254 6 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 574 7 2 5 817 93 114 7125 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 2 3 1458 13 91 4 39 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 449 60 7 224 3 41 2 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 339 0 465 7 1 532 111 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 3 0 6 2405 5 9 8 14 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 6 31 2 7 1 65 968 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 0 31 8359 7553 4 9 2723 7 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 739 6 0 494 3 8332 3242 9 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 50 0 5 610 3 4 709 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 7 18 52 7 949 9 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 43 7 3 8 1 7 8 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 65 0 19 2 1 2 5106 80 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 3 19 193 107 8 0 7 4 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 3 1 7 7 7 3 71 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 19 4 3779 60 2 6 5 882 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 6 0 58 281 82 22 652 8 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 2 2 51 221 364 7 3 823 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 4 3 8 150 97 21 3 5 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 9 5 61 92 7 2 11 6 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 7 28 837 4 6 69 3 30 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E:  in test matrices_tests:27:distributive_multiplication.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.check_cell in file "src/core/QCheck2.ml", line 1605, characters 4-27
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from QCheck2.Test.check_cell_exn in file "src/core/QCheck2.ml", line 1770, characters 14-53
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 E: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:27:distributive_multiplication.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: Start test matrices_tests:28:addition_identity.
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: law addition_identity: 10000 relevant cases (10000 total)
+2021-11-26T10:26:22+00:00 Akshays-MacBook-Pro.local#01 I: 
+2021-11-26T10:26:23+00:00 Akshays-MacBook-Pro.local#01 I: Test matrices_tests:28:addition_identity is successful.
+2021-11-26T10:26:23+00:00 Akshays-MacBook-Pro.local#01 I: End test matrices_tests:28:addition_identity.

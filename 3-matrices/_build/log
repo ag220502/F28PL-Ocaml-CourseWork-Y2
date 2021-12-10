@@ -1,0 +1,436 @@
+# dune runtest --profile release
+# OCAMLPARAM: unset
+# Workspace root: "/Users/akshay/Documents/Year
+# 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices"
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/8f/q9900gc15kb0bpb1qqd1s4900000gn/T/dune244888.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /opt/homebrew/bin/ocamlc.opt -config > /var/folders/8f/q9900gc15kb0bpb1qqd1s4900000gn/T/dune854ed4.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/Users/akshay/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/opt/homebrew/bin"
+#  ; ocaml = Ok External "/Users/akshay/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/opt/homebrew/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/opt/homebrew/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/opt/homebrew/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/opt/homebrew/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/akshay/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/opt/homebrew/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices"
+#        ; "INSIDE_DUNE" :
+#            "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/akshay/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default = "/opt/homebrew/lib/ocaml"
+#      ; standard_library = "/opt/homebrew/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "clang"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "clang"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "clang"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin20.3.0"
+#      ; target = "aarch64-apple-darwin20.3.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /opt/homebrew/bin/ocamldep.opt -modules -impl test/MatricesTests.ml) > _build/default/test/.MatricesTests.eobjs/MatricesTests.ml.d
+$ (cd _build/default && /opt/homebrew/bin/ocamlc.opt -w -40 -g -bin-annot -I test/.MatricesTests.eobjs/byte -I /Users/akshay/.opam/default/lib/bytes -I /Users/akshay/.opam/default/lib/oUnit -I /Users/akshay/.opam/default/lib/ounit2 -I /Users/akshay/.opam/default/lib/ounit2/advanced -I /Users/akshay/.opam/default/lib/qcheck -I /Users/akshay/.opam/default/lib/qcheck-core -I /Users/akshay/.opam/default/lib/qcheck-core/runner -I /Users/akshay/.opam/default/lib/qcheck-ounit -I /Users/akshay/.opam/default/lib/stdlib-shims -I lib/.Matrices.objs/byte -no-alias-deps -o test/.MatricesTests.eobjs/byte/matricesTests.cmo -c -impl test/MatricesTests.ml)
+$ (cd _build/default && /opt/homebrew/bin/ocamlopt.opt -w -40 -g -I test/.MatricesTests.eobjs/byte -I test/.MatricesTests.eobjs/native -I /Users/akshay/.opam/default/lib/bytes -I /Users/akshay/.opam/default/lib/oUnit -I /Users/akshay/.opam/default/lib/ounit2 -I /Users/akshay/.opam/default/lib/ounit2/advanced -I /Users/akshay/.opam/default/lib/qcheck -I /Users/akshay/.opam/default/lib/qcheck-core -I /Users/akshay/.opam/default/lib/qcheck-core/runner -I /Users/akshay/.opam/default/lib/qcheck-ounit -I /Users/akshay/.opam/default/lib/stdlib-shims -I lib/.Matrices.objs/byte -I lib/.Matrices.objs/native -intf-suffix .ml -no-alias-deps -o test/.MatricesTests.eobjs/native/matricesTests.cmx -c -impl test/MatricesTests.ml)
+$ (cd _build/default && /opt/homebrew/bin/ocamlopt.opt -w -40 -g -o test/MatricesTests.exe lib/Matrices.cmxa /opt/homebrew/lib/ocaml/unix.cmxa -I /opt/homebrew/lib/ocaml /Users/akshay/.opam/default/lib/stdlib-shims/stdlib_shims.cmxa /Users/akshay/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa /Users/akshay/.opam/default/lib/ounit2/oUnit.cmxa /Users/akshay/.opam/default/lib/qcheck-core/qcheck_core.cmxa /Users/akshay/.opam/default/lib/qcheck-core/runner/qcheck_runner.cmxa /Users/akshay/.opam/default/lib/qcheck-ounit/qcheck_ounit.cmxa /Users/akshay/.opam/default/lib/qcheck/qcheck.cmxa test/.MatricesTests.eobjs/native/matricesTests.cmx)
+$ (cd _build/default/test && ./MatricesTests.exe)
+> EEEEEEEEEE........E.EEEE.EF.E.
+> ==============================================================================
+> Error: matrices_tests:29:multiplication_zeros.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#02.log", line 107, characters 1-1:
+> Error: matrices_tests:29:multiplication_zeros (in the log).
+>
+> Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> test `multiplication_zeros` raised exception `Failure("not implemented yet")`
+> on `3 19 193 107 8 0 7 4 
+> 6 3 1 7 7 7 3 71 
+> 19 4 3779 60 2 6 5 882 
+> 6 0 58 281 82 22 652 8 
+> 2 2 51 221 364 7 3 823 
+> 4 3 8 150 97 21 3 5 
+> 9 5 61 92 7 2 11 6 
+> 7 28 837 4 6 69 3 30 
+>
+> 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 
+> 0 0 0 0 0 0 0 0 
+> `
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+> Called from MatricesTests.multiplcation_zeros.(fun) in file "test/MatricesTests.ml", line 319, characters 20-37
+> Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+> Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+>
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:26:associative_multiplication.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 141, characters 1-1:
+> Error: matrices_tests:26:associative_multiplication (in the log).
+>
+> Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> test `associative_multiplication`
+> raised exception `Failure("not implemented yet")`
+> on `1 74 2 544 36 1 8 79 
+> 6 1 20 9 3 6 156 7 
+> 9 1 14 814 583 120 442 0 
+> 700 3 3 6 1284 6 254 6 
+> 574 7 2 5 817 93 114 7125 
+> 7 2 3 1458 13 91 4 39 
+> 449 60 7 224 3 41 2 5 
+> 7 339 0 465 7 1 532 111 
+>
+> 3 0 6 2405 5 9 8 14 
+> 2 6 31 2 7 1 65 968 
+> 0 31 8359 7553 4 9 2723 7 
+> 739 6 0 494 3 8332 3242 9 
+> 6 50 0 5 610 3 4 709 
+> 2 7 18 52 7 949 9 5 
+> 2 43 7 3 8 1 7 8 
+> 65 0 19 2 1 2 5106 80 
+>
+> 3 19 193 107 8 0 7 4 
+> 6 3 1 7 7 7 3 71 
+> 19 4 3779 60 2 6 5 882 
+> 6 0 58 281 82 22 652 8 
+> 2 2 51 221 364 7 3 823 
+> 4 3 8 150 97 21 3 5 
+> 9 5 61 92 7 2 11 6 
+> 7 28 837 4 6 69 3 30 
+> `
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+> Called from MatricesTests.associative_multiplication.(fun) in file "test/MatricesTests.ml", line 280, characters 72-91
+> Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+> Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+>
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:23:matrix_mult_2x4.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#02.log", line 62, characters 1-1:
+> Error: matrices_tests:23:matrix_mult_2x4 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+> Called from MatricesTests.matrix_mult_2x4 in file "test/MatricesTests.ml", line 185, characters 4-33
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:22:matrix_mult_3x2.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 86, characters 1-1:
+> Error: matrices_tests:22:matrix_mult_3x2 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+> Called from MatricesTests.matrix_mult_3x2 in file "test/MatricesTests.ml", line 177, characters 4-33
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:21:matrix_mult_3x3.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#02.log", line 53, characters 1-1:
+> Error: matrices_tests:21:matrix_mult_3x3 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+> Called from MatricesTests.matrix_mult_3x3 in file "test/MatricesTests.ml", line 169, characters 4-33
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:20:matrix_mult_zero_columns.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 77, characters 1-1:
+> Error: matrices_tests:20:matrix_mult_zero_columns (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+> Called from MatricesTests.matrix_mult_zero_columns in file "test/MatricesTests.ml", line 161, characters 4-33
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:19:matrix_mult_empty.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 68, characters 1-1:
+> Error: matrices_tests:19:matrix_mult_empty (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.matrix_mult in file "lib/Matrices.ml" (inlined), line 97, characters 2-32
+> Called from MatricesTests.matrix_mult_empty in file "test/MatricesTests.ml", line 154, characters 4-43
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:9:is_matrix_no3.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 47, characters 1-1:
+> Error: matrices_tests:9:is_matrix_no3 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_no3 in file "test/MatricesTests.ml", line 91, characters 51-76
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:8:is_matrix_no2.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 38, characters 1-1:
+> Error: matrices_tests:8:is_matrix_no2 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_no2 in file "test/MatricesTests.ml", line 83, characters 51-76
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:7:is_matrix_no1.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#02.log", line 29, characters 1-1:
+> Error: matrices_tests:7:is_matrix_no1 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_no1 in file "test/MatricesTests.ml", line 77, characters 51-76
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:6:is_matrix_four_rows_four_columns.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 29, characters 1-1:
+> Error: matrices_tests:6:is_matrix_four_rows_four_columns (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_four_rows_four_columns in file "test/MatricesTests.ml", line 71, characters 47-88
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:5:is_matrix_three_rows_two_columns.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#02.log", line 20, characters 1-1:
+> Error: matrices_tests:5:is_matrix_three_rows_two_columns (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_three_rows_two_columns in file "test/MatricesTests.ml", line 65, characters 47-88
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:4:is_matrix_three_rows.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 20, characters 1-1:
+> Error: matrices_tests:4:is_matrix_three_rows (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_three_rows in file "test/MatricesTests.ml", line 59, characters 47-76
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:3:is_matrix_two_rows.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#02.log", line 11, characters 1-1:
+> Error: matrices_tests:3:is_matrix_two_rows (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_two_rows in file "test/MatricesTests.ml", line 52, characters 47-74
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:2:is_matrix_one_row.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 11, characters 1-1:
+> Error: matrices_tests:2:is_matrix_one_row (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_one_row in file "test/MatricesTests.ml", line 45, characters 47-73
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:1:is_matrix_empty2.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#02.log", line 2, characters 1-1:
+> Error: matrices_tests:1:is_matrix_empty2 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_empty_test2 in file "test/MatricesTests.ml", line 38, characters 47-86
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:0:is_matrix_empty1.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 2, characters 1-1:
+> Error: matrices_tests:0:is_matrix_empty1 (in the log).
+>
+> Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+> Called from Matrices.is_matrix in file "lib/Matrices.ml" (inlined), line 42, characters 2-32
+> Called from MatricesTests.is_matrix_empty_test1 in file "test/MatricesTests.ml", line 30, characters 45-69
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> Failure("not implemented yet")
+> ------------------------------------------------------------------------------
+> ==============================================================================
+> Error: matrices_tests:27:distributive_multiplication.
+>
+> File "/Users/akshay/Documents/Year 2/ProgrammingLanguages/f28pl-2021-22-ocaml-coursework/3-matrices/_build/default/test/oUnit-matrices_tests-Akshays-MacBook-Pro.local#01.log", line 185, characters 1-1:
+> Error: matrices_tests:27:distributive_multiplication (in the log).
+>
+> File "src/core/QCheck2.ml", line 1605, characters 1-1:
+> Error: matrices_tests:27:distributive_multiplication (in the code).
+>
+>
+> test `distributive_multiplication` failed on ≥ 1 cases:
+> 1 74 2 544 36 1 8 79 
+> 6 1 20 9 3 6 156 7 
+> 9 1 14 814 583 120 442 0 
+> 700 3 3 6 1284 6 254 6 
+> 574 7 2 5 817 93 114 7125 
+> 7 2 3 1458 13 91 4 39 
+> 449 60 7 224 3 41 2 5 
+> 7 339 0 465 7 1 532 111 
+>
+> 3 0 6 2405 5 9 8 14 
+> 2 6 31 2 7 1 65 968 
+> 0 31 8359 7553 4 9 2723 7 
+> 739 6 0 494 3 8332 3242 9 
+> 6 50 0 5 610 3 4 709 
+> 2 7 18 52 7 949 9 5 
+> 2 43 7 3 8 1 7 8 
+> 65 0 19 2 1 2 5106 80 
+>
+> 3 19 193 107 8 0 7 4 
+> 6 3 1 7 7 7 3 71 
+> 19 4 3779 60 2 6 5 882 
+> 6 0 58 281 82 22 652 8 
+> 2 2 51 221 364 7 3 823 
+> 4 3 8 150 97 21 3 5 
+> 9 5 61 92 7 2 11 6 
+> 7 28 837 4 6 69 3 30 
+>
+>
+>
+> ------------------------------------------------------------------------------
+> Ran: 30 tests in: 0.53 seconds.
+> FAILED: Cases: 30 Tried: 30 Errors: 17 Failures: 1 Skip:  0 Todo: 0 Timeouts: 0.
+[1]
